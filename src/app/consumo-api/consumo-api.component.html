@@ -1,0 +1,12 @@
+<p>consumo-api works!</p>
+<br>
+<div *ngIf="flag">
+  Cargando....
+</div>
+<button type="button" (click)="createData()">Llamar pokemon</button>
+<br>
+<div *ngIf="nombre !== ''">
+  Nombre del pokemon: {{ nombre }}
+  <br>
+  {{ pokemon.id }}
+</div>
